@@ -1,0 +1,5 @@
+{
+  "src/**/*.{js,jsx,ts,tsx}": ["yarn eslint --fix", "yarn prettier --write"],
+  "*.{json,md,yml,yaml}": ["yarn prettier --write"],
+  "*.css": ["yarn prettier --write"]
+}
